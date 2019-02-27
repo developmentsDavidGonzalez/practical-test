@@ -1,0 +1,45 @@
+.ProductListCard {
+  background: $color-7;
+  margin-bottom: 1px;
+  padding: 16px;
+  .col-sm-auto:first-child {
+    padding: 0 16px;
+    min-width: 180px;
+    text-align: center;
+    a {
+      img {
+        width: 180px;
+        border-radius: 4px;
+        display: inline-block;
+      }
+    }
+  }
+  .col-sm-auto:last-child {
+    color: $color-2;
+    padding: 0;
+    > p {
+      font-size: 24px;
+      margin: 16px 0 32px;
+      word-break: break-all
+    }
+    > a {
+      font-size: 18px;
+      &:hover {
+        color: $color-8;
+      }
+    }
+    i.icn {
+      @include background-image-retina('../../assets/images/ic_shipping', 'png', 18px, 18px);
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+    }
+    a {
+      color: $color-2;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+}

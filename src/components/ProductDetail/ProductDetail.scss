@@ -1,0 +1,36 @@
+.ProductDetail {
+  color: $color-2;
+  background: $color-7;
+  padding: 32px;
+  div.col-md-4 {
+    p {
+      font-size: 14px;
+      margin: 0 0 16px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0 0 32px;
+    }
+    span {
+      display: block;
+      font-size: 46px;
+      margin: 0 0 32px;
+    }
+    button {
+      color: $color-7;
+      background: $color-6;
+      width: 100%;
+    }
+  }
+  div.col-md-8 {
+    h2 {
+      font-size: 28px;
+      margin: 64px 0 32px;
+    }
+    p {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+}

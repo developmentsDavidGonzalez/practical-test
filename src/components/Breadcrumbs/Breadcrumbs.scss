@@ -1,0 +1,11 @@
+.breadcrumb {
+  font-size: 14px;
+  margin: 0;
+  color: $color-4;
+  background-color: transparent;
+  padding: 16px;
+  .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: $color-4;
+  }
+}
